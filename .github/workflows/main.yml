@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'printing test message'
-        run: pwd
+      - name: 'printing folder contents'
+        run: ls
 
       - name: 'printing name'
         run: echo "Hello, World!"
