@@ -8,9 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'printing folder contents'
-        run: ls
-
       - uses: actions/checkout@v3
-      - name: 'printing folder contents after checkout'
-        run: ls
+      - name: 'login to docker hub'
+        run: docker login --username yousefsobhy74 --password docker login -u yousefsobhy74
