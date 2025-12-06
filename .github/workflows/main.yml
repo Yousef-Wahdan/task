@@ -1,1 +1,26 @@
+on: 
+ push: 
+  branches:
+    - master
+  paths:
+    - 'src/**'
+    - '.github/workflows/main.yml'
 
+
+
+
+
+
+jobs:
+ build:
+  runs-on: ubuntu-latest
+
+
+
+
+  steps:
+    - name: 'printing test message'
+      run: pwd
+
+      -name: 'printing name'
+      run: echo "Hello, World!"
