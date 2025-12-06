@@ -10,5 +10,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
-       name: build the docker image
+      - name: build the docker image
        run: docker build -t my-docker-image .
